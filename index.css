@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+  
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 23px;
+    color: black;
+    font-size:  2rem;;
+}
+.container{
+    background-color: rgba(0, 0, 0, 0.193);
+    height: min-content;
+    color: #5fb7eafb;
+    border-radius: 23px;
+    gap: 23px;
+  
+    padding: 28px;
+
+}
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.header input{
+    width: 84%;
+    font-size: 23px;
+    text-transform: capitalize;
+    background-color: rgb(187, 223, 223);
+    padding: 12px 5px;
+    border-radius: 8px;
+}
+.header button{
+    width: 14%;
+    font-size: 12px;
+    text-transform: capitalize;
+    padding: 12px 9px;
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(201, 218, 212);
+    cursor: pointer;
+}
+.header input::placeholder{
+    color: black;
+
+}
+.header button:hover{
+    background-color: black;
+    color: white;
+}
+.body img{
+    width: 64%;
+    border-radius: 20px;
+    display: flex;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-block: 30px;
+}
+.bodybox{
+    margin-block: 10px;
+    text-align: center;
+}
+.bodybox .temp{
+font-size: 30px;
+color: black;
+font-weight: 800;
+position: relative;
+}
+.bodybox .temp sup{
+    font-size: 20px;
+    position: absolute;
+    font-weight: 500;
+}
+.bodybox .discription{
+    font-size: 20px;
+    color: black;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.details img{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left:100px ;
+}
+.details{
+    
+   margin: 10px;
+    display: flex;
+   justify-content: space-around;
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+
+
+}
+.humidity{
+    margin-left: 30px;
+}
+.WIND{
+    margin-left :309px; ;
+}
+.humidity, .WIND{
+    display: flex;
+    align-items: center;
+}
+.details .text{
+    margin-left:120px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+}
+
