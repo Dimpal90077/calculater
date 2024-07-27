@@ -1,7 +1,8 @@
 const form=document.querySelector('form');
 const image=document.querySelector('.img-container');
-form.addEventListener('click', (e)=>{
+form.addEventListener('submit', (e)=>{
     e.preventDefault();
+    
     let d=form.querySelector('input').value;
     console.log(d);
     tvmaze(d);
@@ -16,11 +17,16 @@ async function tvmaze(d){
 
 }
 function makeimage(j){
+    image.innerHTML="";
     for(let movie of j){
-        let v=j.show.image.medium;
+        if(movie.show.image){
+            
+        
+        let v=movie.show.image.medium;
         const img=document.createElement('img');
-        img.v=v;
+        img.src=v;
         image.appendChild(img);
+    }
 
     }
 }

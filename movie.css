@@ -6,9 +6,10 @@
   
 }
 body{
-    margin: 50px;
-    height: 50vh;
-    width: 40vw;
+    margin: 20px;
+    height: 100%;
+
+ 
  
 }
 .container{
@@ -16,7 +17,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 50vh;
+  
     background-color: black;
     
     color: azure;
@@ -26,6 +27,7 @@ h1{
     text-transform: capitalize;
     font-weight: 900;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-bottom-style: dotted;
 }
     
 
@@ -41,7 +43,8 @@ h1{
     font-size: 23px;
     font-weight: 600;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: azure;
+    background-color: rgb(126, 206, 206);
+    border-radius: 12px;
 }
 button{
     font-size: 23px;
@@ -52,6 +55,17 @@ button{
     padding-left: 5px;
     padding-right: 5px;
     background-color: rgba(189, 234, 219, 0.91);
+    cursor: pointer;
 
 
+}
+.img-container{
+    height: 50%;
+    display: grid;
+    height: 90vh;
+    width: 90vw;
+
+    grid-template-columns: repeat(5,1fr);
+    grid-column-gap: 5%;
+    grid-row-gap: 2%;
 }

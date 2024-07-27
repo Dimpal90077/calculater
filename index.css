@@ -89,7 +89,7 @@ position: relative;
     position: absolute;
     font-weight: 500;
 }
-.bodybox .Description{
+.bodybox .description{
     font-size: 20px;
     color: black;
     text-transform: capitalize;
